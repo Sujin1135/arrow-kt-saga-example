@@ -1,0 +1,9 @@
+[versions]
+arrow-kt = "1.2.1"
+
+[libraries]
+arrow-core = { group = "io.arrow-kt", name = "arrow-core", version.ref = "arrow-kt" }
+arrow-fx-coroutines = { group = "io.arrow-kt", name = "arrow-fx-coroutines", version.ref = "arrow-kt" }
+arrow-resilience = { group = "io.arrow-kt", name = "arrow-resilience", version.ref = "arrow-kt" }
+
+[plugins]
